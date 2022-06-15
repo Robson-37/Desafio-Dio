@@ -1,0 +1,60 @@
+@charset "utf-8";
+@import url(sintaxe.html);
+body{
+    background: #df002546 ;
+    font-family: agency FB;
+    max-width: 900px;
+    margin: auto;
+}
+#title, .subtitle, .post_title{
+    color: rgba(52, 52, 182, 0.822);
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.712);
+
+}
+#title{
+    font-size: 48px;
+    text-transform: uppercase;
+}
+a{
+    text-decoration: line-through;
+
+}
+
+.post_title{
+    font-size: 16px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+}
+.post {
+    background: #fff;
+    padding: 15px;
+    border: 3px solid black;
+    margin-bottom: 15px;
+    border-radius: 15px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    text-align: justify;
+    
+}
+.post_img{
+    margin-bottom: 15px;
+    border: 2px solid rgba(255, 0, 0, 0.432);
+    width: 100%;
+    height: 250px;
+}
+.post_foto{
+    border: 2px solid rgba(255, 0, 0, 0.432);
+    box-shadow: -3px 2px 2px  rgba(0, 0, 0, 0.664);
+    border-radius: 50%;
+}
+.constats_list{
+    list-style-type: none;
+    padding-left: 15px;
+}
+.constats_list li a{
+    text-decoration: none;
+}
