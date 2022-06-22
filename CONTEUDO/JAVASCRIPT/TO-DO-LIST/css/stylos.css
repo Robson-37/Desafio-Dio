@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Agency FB;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(165, 42, 42, 0.589);
+    height: 100vh;
+}
+#txt-afazeres{
+    width: 200px;
+    font-size: 16px;
+    margin: 2px;
+
+}
+.lista{
+    background-color: rgba(98, 98, 219, 0.664);
+    width: 180px;
+    height: 200px;
+    margin: 15px;
+}
