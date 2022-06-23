@@ -9,15 +9,18 @@
 </head>
 <body>
     <div class="flex-container">
-        <h1>To do List</h1>
+        <h1 title="Lista de afazeres">To do List</h1>
+        <p>Lista de afazeres diários</p>
         <div class="lista">
             <ul id="material">
             </ul>
         </div>
         <div class="flex-grow">
-            <input type="text" id="txt-afazeres" name="txt-afazeres" />
-            <button class="button" onclick="adicionar()">Adicione aqui</button>
+            <input type="text" id="txt-afazeres" name="txt-afazeres" 
+            placeholder="Digite aqui sua tarefa" required="required"/>
         </div>
+        <button class="button button1" onclick="adicionar()" >Adicione aqui</button>
+
     </div>
     <script src="./js/script.js"></script>
 </body>
