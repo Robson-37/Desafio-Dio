@@ -13,25 +13,22 @@ function verificar(){
         else {
             alert("Os números " + valor1 + " e " + valor2 + " são diferentes.");
         }
-        if((result > 10) ||(result < 20)){
-            if(result === 10){
-                alert("A soma dos número digitado é igual a " + result + 
-                " e serão fixado no resultado abaixo");
-            }
-            if(result === 20){
-                alert("A soma dos número digitado é  igual a " + result + 
-                " e serão fixado no resultado abaixo");
-            }
+        if((result === 10) ||(result === 20))
+        {
+             alert("A soma dos número digitado é igual a " + result + 
+                " o resultado será fixado abaixo");
         }
         else
         {
             alert("A soma dos número digitado é " + result + ", é maior que 10 e menor que 20," +
-        " e serão fixado no resultado abaixo");
+            " o resultado será fixado abaixo");
         }
-        if((result < 10) ||(result > 20 )){
+         if((result < 10) ||(result > 20 ))
+        {
             alert("O número " + result + ", não se enquadra nos parâmetros(maior quer 10) ou (menor que 20), " +
-              "o resultado será fixado abaixo.");
+              "o resultado da soma será fixado abaixo.");
         }
+        
         //Fixando o resultado da soma dos números. 
         document.getElementById("result").innerHTML = result;
 }
